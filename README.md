@@ -43,7 +43,7 @@ Siga as instruções abaixo para executar o projeto em sua máquina local.
     cd nome-da-pasta-do-projeto
     ```
 
-2.  **Instale as dependências:**
+2.  **Instale as dependências(Tirar isso se não tiver o requirements.txt):**
 
     ```bash
     # Exemplo para Python com pip
@@ -61,8 +61,8 @@ Siga as instruções abaixo para executar o projeto em sua máquina local.
 
 O projeto está sendo desenvolvido pela seguinte equipe, com base em uma divisão de carga de trabalho:
 
-*  <a name="pessoa1"></a>**Felipe(Pessoa 1)** `Algoritmo de Chu-Liu/Edmonds (4)`
-*  <a name="pessoa2"></a>**Seu nome(Pessoa 2):** `Algoritmo de Boruvka (3)` e `Algoritmo de Floyd-Warshall (7)`
-*  <a name="pessoa3"></a>**Seu nome(Pessoa 3):** `Algoritmo de Kruskal (1)` e `Algoritmo de Bellman-Ford (6)`
-*  <a name="pessoa4"></a>**Seu nome(Pessoa 4):** `Algoritmo de Hierholzer (CICLOS) (8)` e `Algoritmo de Hierholzer (CAMINHOS) (9)`
-*  <a name="pessoa5"></a>**Seu nome(Pessoa 5):** `Algoritmo de Prim (2)` e `Algoritmo de Dijkstra (5)`
+*  <a name="pessoa1"></a>**Felipe Freitas (Pessoa 1)** `Algoritmo de Chu-Liu/Edmonds (4)`
+*  <a name="pessoa2"></a>**Seu nome (Pessoa 2):** `Algoritmo de Boruvka (3)` e `Algoritmo de Floyd-Warshall (7)`
+*  <a name="pessoa3"></a>**Seu nome (Pessoa 3):** `Algoritmo de Kruskal (1)` e `Algoritmo de Bellman-Ford (6)`
+*  <a name="pessoa4"></a>**Seu nome (Pessoa 4):** `Algoritmo de Hierholzer (CICLOS) (8)` e `Algoritmo de Hierholzer (CAMINHOS) (9)`
+*  <a name="pessoa5"></a>**Seu nome (Pessoa 5):** `Algoritmo de Prim (2)` e `Algoritmo de Dijkstra (5)`
