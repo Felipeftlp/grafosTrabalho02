@@ -14,7 +14,7 @@ O escopo do projeto inclui os seguintes algoritmos, divididos por categoria:
 | (1) | Algoritmo de Kruskal | ⏳ Pendente | Pessoa 3 |
 | (2) | Algoritmo de Prim | ⏳ Pendente | Pessoa 5 |
 | (3) | Algoritmo de Boruvka (OPC) | ⏳ Pendente | Pessoa 2 |
-| (4) | Algoritmo de Chu-Liu/Edmonds (OPC) | ⏳ Pendente | Pessoa 1 |
+| (4) | Algoritmo de Chu-Liu/Edmonds (OPC) | ⏳ Pendente | [Pessoa 3](#pessoa3) |
 | **B. Caminho Mais Curto** | | | |
 | (5) | Algoritmo de Dijkstra | ⏳ Pendente | Pessoa 5 |
 | (6) | Algoritmo de Bellman-Ford | ⏳ Pendente | Pessoa 3 |
@@ -61,8 +61,8 @@ Siga as instruções abaixo para executar o projeto em sua máquina local.
 
 O projeto está sendo desenvolvido pela seguinte equipe, com base em uma divisão de carga de trabalho:
 
-* **Pessoa 1:** `Algoritmo de Chu-Liu/Edmonds (4)`
-* **Pessoa 2:** `Algoritmo de Boruvka (3)` e `Algoritmo de Floyd-Warshall (7)`
-* **Pessoa 3:** `Algoritmo de Kruskal (1)` e `Algoritmo de Bellman-Ford (6)`
-* **Pessoa 4:** `Algoritmo de Hierholzer (CICLOS) (8)` e `Algoritmo de Hierholzer (CAMINHOS) (9)`
-* **Pessoa 5:** `Algoritmo de Prim (2)` e `Algoritmo de Dijkstra (5)`
+*  <a name="felipe"></a>**felipe** `Algoritmo de Chu-Liu/Edmonds (4)`
+*  <a name="seuNome1"></a>**Seu nome:** `Algoritmo de Boruvka (3)` e `Algoritmo de Floyd-Warshall (7)`
+*  <a name="seuNome2"></a>**Seu nome:** `Algoritmo de Kruskal (1)` e `Algoritmo de Bellman-Ford (6)`
+*  <a name="seuNome3"></a>**Seu nome:** `Algoritmo de Hierholzer (CICLOS) (8)` e `Algoritmo de Hierholzer (CAMINHOS) (9)`
+*  <a name="seuNome4"></a>**Seu nome:** `Algoritmo de Prim (2)` e `Algoritmo de Dijkstra (5)`
