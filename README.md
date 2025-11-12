@@ -14,7 +14,7 @@ O escopo do projeto inclui os seguintes algoritmos, divididos por categoria:
 | (1) | Algoritmo de Kruskal | ⏳ Pendente | Pessoa 3 |
 | (2) | Algoritmo de Prim | ⏳ Pendente | Pessoa 5 |
 | (3) | Algoritmo de Boruvka (OPC) | ⏳ Pendente | Pessoa 2 |
-| (4) | Algoritmo de Chu-Liu/Edmonds (OPC) | ⏳ Pendente | [Pessoa 3](#pessoa3) |
+| (4) | Algoritmo de Chu-Liu/Edmonds (OPC) | ⏳ Pendente | [Felipe](#felipe) |
 | **B. Caminho Mais Curto** | | | |
 | (5) | Algoritmo de Dijkstra | ⏳ Pendente | Pessoa 5 |
 | (6) | Algoritmo de Bellman-Ford | ⏳ Pendente | Pessoa 3 |
