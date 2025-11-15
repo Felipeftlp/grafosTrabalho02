@@ -200,7 +200,7 @@ def formatar_resultado(arestas_agm, custo_total):
         String formatada com o resultado
     """
     resultado = "Árvore Geradora Mínima (Kruskal)\n"
-    resultado += "=" * 40 + "\n"
+    # resultado += "-" * 40 + "\n"
     
     if not arestas_agm:
         resultado += "Grafo vazio ou desconexo\n"
@@ -216,9 +216,7 @@ def formatar_resultado(arestas_agm, custo_total):
 if __name__ == "__main__":
     from grafos import grafo_direcionado, TODOS_NOS
     
-    print("=" * 70)
-    print("ALGORITMO DE KRUSKAL - ÁRVORE GERADORA MÍNIMA")
-    print("=" * 70)
+    print("KRUSKAL")
     print()
     print("Grafo do Trabalho: Direcionado e Ponderado (19 vértices)")
     print("Requisito: s=1 (vértice inicial)")
@@ -237,7 +235,4 @@ if __name__ == "__main__":
     print(f"  Número esperado (n-1): {len(TODOS_NOS) - 1}")
     
     if len(arestas_agm) < len(TODOS_NOS) - 1:
-        print("  ⚠️  AVISO: O grafo pode estar desconexo!")
-    
-    print()
-    print("=" * 70)
+        print("AVISO: O grafo pode estar desconexo!")

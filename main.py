@@ -1,14 +1,7 @@
 """
 Script Principal - Execução dos Algoritmos no Grafo do Trabalho
 
-Este script executa os algoritmos de Kruskal e Bellman-Ford chamando
-os mains de cada arquivo de implementação.
-
-Requisitos do trabalho:
-- AGM (Kruskal): s=1 (vértice inicial)
-- Caminho Mais Curto (Bellman-Ford): s=1 (origem), destino=15
-
-Autor: Ianco
+Este script executa os algoritmos implementados chamando os mains de cada arquivo.
 """
 
 import runpy
@@ -20,21 +13,44 @@ def main():
     """
     print("\n")
     print("╔" + "═" * 68 + "╗")
-    print("║" + " " * 15 + "TRABALHO UNIDADE 02 - GRAFOS" + " " * 24 + "║")
-    print("║" + " " * 18 + "Algoritmos: Kruskal e Bellman-Ford" + " " * 16 + "║")
-    print("║" + " " * 30 + "Autor: Ianco" + " " * 26 + "║")
+    print("║" + " " * 15 + "TRABALHO UNIDADE 02 - GRAFOS" + " " * 25 + "║")
+    print("║" + " " * 10 + "Algoritmos: Kruskal, Prim, Bellman-Ford e Dijkstra" + " " * 8 + "║")
     print("╚" + "═" * 68 + "╝")
     print("\n")
     
-    # Executa o main do Kruskal
+    # === ÁRVORES GERADORAS MÍNIMAS ===
+    print("=" * 70)
+    print("ÁRVORES GERADORAS MÍNIMAS (AGM)")
+    
+    # Kruskal
+    print("\n" + "─" * 70 + "\n")
     runpy.run_module('algoritmo_kruskal', run_name='__main__')
+    print("\n" + "─" * 70 + "\n")
     
+    # Prim
+    print(">>> Algoritmo de Prim")
+    runpy.run_module('algoritmo_prim', run_name='__main__')
+    
+    print("=" * 70)
     print("\n\n")
+
     
-    # Executa o main do Bellman-Ford
+    
+    # === CAMINHOS MAIS CURTOS ===
+    print("=" * 70)
+    print("CAMINHOS MAIS CURTOS")
+    
+    # Bellman-Ford
+    print("\n" + "─" * 70 + "\n")
     runpy.run_module('algoritmo_bellman_ford', run_name='__main__')
+    print("\n" + "─" * 70 + "\n")
     
-    print("\n")
+    # Dijkstra
+    print(">>> Algoritmo de Dijkstra")
+    runpy.run_module('algoritmo_dijkstra', run_name='__main__')
+    
+    print("=" * 70)
+    print("\n\n")
 
 
 if __name__ == "__main__":

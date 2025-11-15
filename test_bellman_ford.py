@@ -1,9 +1,5 @@
 """
 Testes para o Algoritmo de Bellman-Ford
-
-Testes unitários completos incluindo casos de borda e casos especiais.
-
-Autor: Ianco
 """
 
 import pytest

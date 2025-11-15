@@ -128,11 +128,9 @@ def formatar_resultado(origem, distancias, predecessores, tem_ciclo_negativo, de
     Returns:
         String formatada com o resultado
     """
-    resultado = f"Algoritmo de Bellman-Ford (Origem: {origem})\n"
-    resultado += "=" * 50 + "\n\n"
-    
+    resultado = ""
     if tem_ciclo_negativo:
-        resultado += "⚠️  AVISO: Ciclo de peso negativo detectado!\n"
+        resultado += "AVISO: Ciclo de peso negativo detectado!\n"
         resultado += "As distâncias podem não estar bem definidas.\n\n"
     
     # Se foi especificado um destino, mostra apenas esse caminho
@@ -141,65 +139,37 @@ def formatar_resultado(origem, distancias, predecessores, tem_ciclo_negativo, de
             resultado += f"Não existe caminho de {origem} para {destino}\n"
         else:
             caminho = reconstruir_caminho(predecessores, origem, destino)
-            resultado += f"Caminho mais curto de {origem} para {destino}:\n"
             resultado += f"  Distância: {distancias[destino]}\n"
             if caminho:
                 resultado += f"  Caminho: {' -> '.join(map(str, caminho))}\n"
     else:
-        # Mostra todas as distâncias
-        resultado += "Distâncias e Caminhos:\n"
-        resultado += "-" * 50 + "\n"
+        resultado += "\n"
         
-        # Ordena vértices para exibição consistente
-        vertices_ordenados = sorted(distancias.keys(), 
+        vertices_com_dist_ordenadas = sorted(distancias.keys(), 
                                    key=lambda x: (distancias[x], str(x)))
         
-        for v in vertices_ordenados:
+        for v in vertices_com_dist_ordenadas:
             if v == origem:
                 resultado += f"{v}: 0 (origem)\n"
             elif distancias[v] == float('inf'):
-                resultado += f"{v}: ∞ (inacessível)\n"
+                resultado += f"Destino: {v}:\t| Distância: inf | Caminho: inacessível\n"
             else:
                 caminho = reconstruir_caminho(predecessores, origem, v)
                 caminho_str = ' -> '.join(map(str, caminho)) if caminho else "?"
-                resultado += f"{v}: {distancias[v]} | Caminho: {caminho_str}\n"
+                resultado += f"Destino: {v}:\t| Distância: {distancias[v]}\t| Caminho: {caminho_str}\n"
     
     return resultado
-
-
-def bellman_ford_com_vertices_inalcancaveis(grafo, origem):
-    """
-    Versão do Bellman-Ford que lida explicitamente com vértices inalcançáveis.
-    
-    Args:
-        grafo: Dicionário {u: {v: peso}} representando o grafo direcionado
-        origem: Vértice de origem
-        
-    Returns:
-        Tupla (distancias, predecessores, tem_ciclo_negativo, alcancaveis) onde:
-        - alcancaveis: Conjunto de vértices alcançáveis a partir da origem
-    """
-    distancias, predecessores, tem_ciclo_negativo = bellman_ford(grafo, origem)
-    
-    # Identifica vértices alcançáveis
-    alcancaveis = {v for v, dist in distancias.items() if dist != float('inf')}
-    
-    return distancias, predecessores, tem_ciclo_negativo, alcancaveis
 
 
 if __name__ == "__main__":
     from grafos import grafo_direcionado, TODOS_NOS
     
-    print("=" * 70)
-    print("ALGORITMO DE BELLMAN-FORD - CAMINHO MAIS CURTO")
-    print("=" * 70)
-    print()
-    print("Grafo do Trabalho: Direcionado e Ponderado (19 vértices)")
-    print("Requisito: s=1 (origem), destino=15")
-    print()
-    
+    print("BELLMAN-FORD")
     origem = 1
     destino = 15
+    print(f"Origem={origem}, Destino={destino}")
+    print()
+    
     
     # Executa Bellman-Ford
     distancias, predecessores, tem_ciclo_negativo = bellman_ford(
@@ -207,15 +177,13 @@ if __name__ == "__main__":
     )
     
     # Exibe resultado completo (todas as distâncias)
-    print("TODAS AS DISTÂNCIAS A PARTIR DO VÉRTICE 1:")
-    print("-" * 70)
+    print("." * 20)
+    print(f"TODAS AS DISTÂNCIAS A PARTIR DO VÉRTICE {origem}:")
     print(formatar_resultado(origem, distancias, predecessores, tem_ciclo_negativo))
+    print("." * 20)
     
     # Exibe resultado específico para o destino 15
-    print("\n")
-    print("CAMINHO ESPECÍFICO PARA O VÉRTICE 15 (REQUISITO DO TRABALHO):")
-    print("-" * 70)
+    print("." * 20)
+    print(f"CAMINHO ESPECÍFICO DE {origem} PARA O VÉRTICE {destino}:")
     print(formatar_resultado(origem, distancias, predecessores, tem_ciclo_negativo, destino))
-    
-    print()
-    print("=" * 70)
+    print("." * 20)
