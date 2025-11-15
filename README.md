@@ -11,13 +11,13 @@ O escopo do projeto inclui os seguintes algoritmos, divididos por categoria:
 | Categoria | Algoritmo | Status | Responsável |
 | :--- | :--- | :--- | :--- |
 | **A. Árvores Geradoras Mínimas** | | | |
-| (1) | Algoritmo de Kruskal | ⏳ Pendente | [Pessoa 3](#pessoa3) |
+| (1) | Algoritmo de Kruskal | ⏳ Pendente | [Ianco](https://github.com/ianco-so) |
 | (2) | Algoritmo de Prim | ✅ Concluído | Kaio Eduardo |
 | (3) | Algoritmo de Boruvka (OPC) | ⏳ Pendente | [Pessoa 2](#pessoa2) |
 | (4) | Algoritmo de Chu-Liu/Edmonds (OPC) | ⏳ Pendente | [Pessoa 1](#pessoa1) |
 | **B. Caminho Mais Curto** | | | |
 | (5) | Algoritmo de Dijkstra | ✅ Concluído | Kaio Eduardo |
-| (6) | Algoritmo de Bellman-Ford | ⏳ Pendente | [Pessoa 3](#pessoa3) |
+| (6) | Algoritmo de Bellman-Ford | ⏳ Pendente | [Ianco](https://github.com/ianco-so) |
 | (7) | Algoritmo de Floyd-Warshall | ⏳ Pendente | [Pessoa 2](#pessoa2) |
 | **C. Grafos Eulerianos** | | | |
 | (8) | Algoritmo de Hierholzer (CICLOS) | ⏳ Pendente | [Pessoa 4](#pessoa4) |
@@ -63,6 +63,6 @@ O projeto está sendo desenvolvido pela seguinte equipe, com base em uma divisã
 
 *  <a name="pessoa1"></a>**Felipe Freitas (Pessoa 1)** `Algoritmo de Chu-Liu/Edmonds (4)`
 *  <a name="pessoa2"></a>**Seu nome (Pessoa 2):** `Algoritmo de Boruvka (3)` e `Algoritmo de Floyd-Warshall (7)`
-*  <a name="pessoa3"></a>**Seu nome (Pessoa 3):** `Algoritmo de Kruskal (1)` e `Algoritmo de Bellman-Ford (6)`
+*  <a name="Ianco" href="https://github.com/ianco-so">**Ianco**:</a> `Algoritmo de Kruskal (1)` e `Algoritmo de Bellman-Ford (6)`
 *  <a name="pessoa4"></a>**Seu nome (Pessoa 4):** `Algoritmo de Hierholzer (CICLOS) (8)` e `Algoritmo de Hierholzer (CAMINHOS) (9)`
 *  <a name="pessoa5"></a>**Kaio Eduardo (Pessoa 5):** `Algoritmo de Prim (2)` e `Algoritmo de Dijkstra (5)`
