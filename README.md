@@ -65,4 +65,4 @@ O projeto está sendo desenvolvido pela seguinte equipe, com base em uma divisã
 *  <a name="pessoa2"></a>**Seu nome (Pessoa 2):** `Algoritmo de Boruvka (3)` e `Algoritmo de Floyd-Warshall (7)`
 *  <a name="pessoa3"></a>**Seu nome (Pessoa 3):** `Algoritmo de Kruskal (1)` e `Algoritmo de Bellman-Ford (6)`
 *  <a name="pessoa4"></a>**Seu nome (Pessoa 4):** `Algoritmo de Hierholzer (CICLOS) (8)` e `Algoritmo de Hierholzer (CAMINHOS) (9)`
-*  <a name="pessoa5"></a>**Seu nome (Pessoa 5):** `Algoritmo de Prim (2)` e `Algoritmo de Dijkstra (5)`
+*  <a name="pessoa5"></a>**Kaio Eduardo (Pessoa 5):** `Algoritmo de Prim (2)` e `Algoritmo de Dijkstra (5)`
