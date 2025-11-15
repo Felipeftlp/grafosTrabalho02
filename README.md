@@ -11,13 +11,13 @@ O escopo do projeto inclui os seguintes algoritmos, divididos por categoria:
 | Categoria | Algoritmo | Status | Responsável |
 | :--- | :--- | :--- | :--- |
 | **A. Árvores Geradoras Mínimas** | | | |
-| (1) | Algoritmo de Kruskal | ⏳ Pendente | [Ianco](https://github.com/ianco-so) |
+| (1) | Algoritmo de Kruskal | ✅ Concluído | [Ianco](https://github.com/ianco-so) |
 | (2) | Algoritmo de Prim | ✅ Concluído | Kaio Eduardo |
 | (3) | Algoritmo de Boruvka (OPC) | ⏳ Pendente | [Pessoa 2](#pessoa2) |
 | (4) | Algoritmo de Chu-Liu/Edmonds (OPC) | ⏳ Pendente | [Pessoa 1](#pessoa1) |
 | **B. Caminho Mais Curto** | | | |
 | (5) | Algoritmo de Dijkstra | ✅ Concluído | Kaio Eduardo |
-| (6) | Algoritmo de Bellman-Ford | ⏳ Pendente | [Ianco](https://github.com/ianco-so) |
+| (6) | Algoritmo de Bellman-Ford | ✅ Concluído | [Ianco](https://github.com/ianco-so) |
 | (7) | Algoritmo de Floyd-Warshall | ⏳ Pendente | [Pessoa 2](#pessoa2) |
 | **C. Grafos Eulerianos** | | | |
 | (8) | Algoritmo de Hierholzer (CICLOS) | ⏳ Pendente | [Pessoa 4](#pessoa4) |
@@ -39,23 +39,42 @@ Siga as instruções abaixo para executar o projeto em sua máquina local.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO_AQUI]
-    cd nome-da-pasta-do-projeto
+    git clone https://github.com/Felipeftlp/grafosTrabalho02.git
+    cd grafosTrabalho02
     ```
 
-2.  **Instale as dependências(Tirar isso se não tiver o requirements.txt):**
+2.  **Instale as dependências (por enquanto o pytest):**
 
     ```bash
-    # Exemplo para Python com pip
-    pip install -r requirements.txt
+    pip install pytest
     ```
 
-3.  **Execute o programa (ou testes):**
+3.  **Execute o programa principal:**
 
     ```bash
-    # Exemplo para Python
     python main.py
     ```
+
+    Este comando executará todos os algoritmos implementados no grafo do trabalho.
+
+## 🧪 Como Executar os Testes
+
+O projeto possui testes unitários completos para os algoritmos implementados.
+
+### Opção 1: Script Simplificado (Recomendado)
+```bash
+python executar_testes.py
+```
+
+### Opção 2: Comando Pytest Direto
+```bash
+python -m pytest test/ -v
+```
+
+### Opção 3: Pytest Curto
+```bash
+pytest test/ -v
+```
 
 ## 👥 Equipe e Divisão de Tarefas
 
