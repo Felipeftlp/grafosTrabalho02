@@ -24,3 +24,17 @@ grafo_direcionado = {
 
 # O grafo tem nós de 1 a 19.
 TODOS_NOS = set(range(1, 20))
+
+# Grafo 2 do documento (Ponderado e Direcionado)
+# Formato: {no_origem: {no_destino: peso, ...}}
+grafo_direcionado_2 = {
+    1: {2: 1, 3: 8, 6: 5},
+    2: {3: 8, 6: 2},
+    3: {5: 6},
+    4: {2: 7, 3: 4, 6: 8},
+    5: {4: 3, 6: 8},
+    6: {4: 8} 
+}
+
+# O grafo tem nós de 1 a 6
+TODOS_NOS_2 = set(range(1, 7))
