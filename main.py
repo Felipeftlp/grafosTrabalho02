@@ -14,7 +14,7 @@ def main():
     print("\n")
     print("╔" + "═" * 68 + "╗")
     print("║" + " " * 15 + "TRABALHO UNIDADE 02 - GRAFOS" + " " * 25 + "║")
-    print("║" + " " * 10 + "Algoritmos: Kruskal, Prim, Bellman-Ford e Dijkstra" + " " * 8 + "║")
+    print("║" + " " * 10 + "Algoritmos: Kruskal, Prim, Chu-Liu/Edmonds, Bellman-Ford e Dijkstra" + " " * 8 + "║")
     print("╚" + "═" * 68 + "╝")
     print("\n")
     
@@ -30,7 +30,12 @@ def main():
     # Prim
     print(">>> Algoritmo de Prim")
     runpy.run_module('algoritmo_prim', run_name='__main__')
+    print("\n" + "─" * 70 + "\n")
     
+    # Chu-Liu/Edmonds
+    print(">>> Algoritmo de Chu-Liu/Edmonds")
+    runpy.run_module('algoritmo_chu_liu_edmonds', run_name='__main__')
+
     print("=" * 70)
     print("\n\n")
 
