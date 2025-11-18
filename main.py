@@ -33,6 +33,11 @@ def main():
     runpy.run_module('algoritmo_prim', run_name='__main__')
     print("\n" + "─" * 70 + "\n")
     
+    # Boruvka
+    print(">>> Algoritmo de Boruvka")
+    runpy.run_module('algoritmo_boruvka', run_name='__main__')
+    print("\n" + "─" * 70 + "\n")
+    
     # Chu-Liu/Edmonds
     print(">>> Algoritmo de Chu-Liu/Edmonds")
     runpy.run_module('algoritmo_chu_liu_edmonds', run_name='__main__')
@@ -54,6 +59,12 @@ def main():
     # Dijkstra
     print(">>> Algoritmo de Dijkstra")
     runpy.run_module('algoritmo_dijkstra', run_name='__main__')
+    
+    print("=" * 70)
+    
+    # Floyd-Warshall
+    print(">>> Algoritmo de Floyd-Warshall")
+    runpy.run_module('algoritmo_floyd_warshall', run_name='__main__')
     
     print("=" * 70)
     print("\n\n")
