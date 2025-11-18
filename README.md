@@ -20,8 +20,8 @@ O escopo do projeto inclui os seguintes algoritmos, divididos por categoria:
 | (6) | Algoritmo de Bellman-Ford | ✅ Concluído | [Ianco](https://github.com/ianco-so) |
 | (7) | Algoritmo de Floyd-Warshall | ⏳ Pendente | [Djavan Costa](https://github.com/djavan93) |
 | **C. Grafos Eulerianos** | | | |
-| (8) | Algoritmo de Hierholzer (CICLOS) | ⏳ Pendente | [Giliardo Júlio](https://github.com/gili-julio) |
-| (9) | Algoritmo de Hierholzer (CAMINHOS) (OPC) | ⏳ Pendente | [Giliardo Júlio](https://github.com/gili-julio) |
+| (8) | Algoritmo de Hierholzer (CICLOS) | ✅ Concluído | [Giliardo Júlio](https://github.com/gili-julio) |
+| (9) | Algoritmo de Hierholzer (CAMINHOS) (OPC) | ✅ Concluído | [Giliardo Júlio](https://github.com/gili-julio) |
 
 ## 💻 Tecnologias (Stack)
 
