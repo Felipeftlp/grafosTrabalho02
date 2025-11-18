@@ -1,6 +1,6 @@
 """
 Implementação do Algoritmo de Hierholzer para encontrar CAMINHOS eulerianos.
-Entrada: grafo representado como dicionário {vertice: [lista_de_vizinhos]}
+Entrada: grafo não direcionado representado como dicionário {vertice: [lista_de_vizinhos]}
 Saída: caminho euleriano caso exista.
 """
 

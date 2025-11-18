@@ -1,7 +1,7 @@
 """
 Implementação do Algoritmo de Hierholzer para encontrar CICLOS eulerianos.
-Entrada: grafo representado como dicionário {vertice: [lista_de_vizinhos]}
-Saída: lista com o ciclo euleriano.
+Entrada: grafo direcionado representado como dicionário {vertice: [lista_de_vizinhos]}
+Saída: lista com o ciclo euleriano, caso exista.
 """
 
 from collections import defaultdict
