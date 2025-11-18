@@ -2,7 +2,7 @@
 
 Este repositório contém a implementação de nove algoritmos fundamentais da Teoria dos Grafos, abrangendo problemas de Árvores Geradoras Mínimas (MST), Caminhos Mais Curtos e Grafos Eulerianos. O projeto serve como um estudo prático e material de referência para essas estruturas.
 
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen)
 
 ## 🗂️ Algoritmos Implementados
 
@@ -13,12 +13,12 @@ O escopo do projeto inclui os seguintes algoritmos, divididos por categoria:
 | **A. Árvores Geradoras Mínimas** | | | |
 | (1) | Algoritmo de Kruskal | ✅ Concluído | [Ianco](https://github.com/ianco-so) |
 | (2) | Algoritmo de Prim | ✅ Concluído | Kaio Eduardo |
-| (3) | Algoritmo de Boruvka (OPC) | ⏳ Pendente | [Djavan Costa](https://github.com/djavan93) |
+| (3) | Algoritmo de Boruvka (OPC) | ✅ Pendente | [Djavan Costa](https://github.com/djavan93) |
 | (4) | Algoritmo de Chu-Liu/Edmonds (OPC) | ✅ Concluído | [Pessoa 1](#pessoa1) |
 | **B. Caminho Mais Curto** | | | |
 | (5) | Algoritmo de Dijkstra | ✅ Concluído | Kaio Eduardo |
 | (6) | Algoritmo de Bellman-Ford | ✅ Concluído | [Ianco](https://github.com/ianco-so) |
-| (7) | Algoritmo de Floyd-Warshall | ⏳ Pendente | [Djavan Costa](https://github.com/djavan93) |
+| (7) | Algoritmo de Floyd-Warshall | ✅ Pendente | [Djavan Costa](https://github.com/djavan93) |
 | **C. Grafos Eulerianos** | | | |
 | (8) | Algoritmo de Hierholzer (CICLOS) | ✅ Concluído | [Giliardo Júlio](https://github.com/gili-julio) |
 | (9) | Algoritmo de Hierholzer (CAMINHOS) (OPC) | ✅ Concluído | [Giliardo Júlio](https://github.com/gili-julio) |
