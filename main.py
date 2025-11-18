@@ -12,10 +12,11 @@ def main():
     Função principal que executa os mains dos algoritmos.
     """
     print("\n")
-    print("╔" + "═" * 68 + "╗")
-    print("║" + " " * 15 + "TRABALHO UNIDADE 02 - GRAFOS" + " " * 25 + "║")
-    print("║" + " " * 10 + "Algoritmos: Kruskal, Prim, Chu-Liu/Edmonds, Bellman-Ford e Dijkstra" + " " * 8 + "║")
-    print("╚" + "═" * 68 + "╝")
+    print("═" * 68)
+    print(" " * 15 + "TRABALHO UNIDADE 02 - GRAFOS")
+    print(" " * 10 + "Algoritmos: Kruskal, Prim, Chu-Liu/Edmonds,")
+    print(" " * 15 + "Bellman-Ford, Dijkstra e Hierholzer")
+    print("═" * 68)
     print("\n")
     
     # === ÁRVORES GERADORAS MÍNIMAS ===
@@ -54,6 +55,23 @@ def main():
     print(">>> Algoritmo de Dijkstra")
     runpy.run_module('algoritmo_dijkstra', run_name='__main__')
     
+    print("=" * 70)
+    print("\n\n")
+
+    # === GRAFOS EULERIANOS ===
+    print("=" * 70)
+    print("GRAFOS EULERIANOS")
+    print("\n" + "─" * 70 + "\n")
+
+    # Hierholzer - CICLOS
+    print(">>> Algoritmo de Hierholzer (CICLOS)")
+    runpy.run_module('algoritmo_hierholzer_ciclos', run_name='__main__')
+    print("\n" + "─" * 70 + "\n")
+
+    # Hierholzer - CAMINHOS
+    print(">>> Algoritmo de Hierholzer (CAMINHOS)")
+    runpy.run_module('algoritmo_hierholzer_caminhos', run_name='__main__')
+
     print("=" * 70)
     print("\n\n")
 
